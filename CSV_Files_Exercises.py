@@ -12,7 +12,6 @@ with open(os.path.join(sys.path[0], "colours_20_simple.csv")) as csv_file:
 #Q2
 with open(os.path.join(sys.path[0], "colours_20_simple.csv")) as csv_file:
     reader=csv.reader(csv_file)
-    counter=0
     colour_data = []
     for row in reader:
         colour_data.append(row)
